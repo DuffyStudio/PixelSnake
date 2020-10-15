@@ -4,8 +4,8 @@ function PixelBoard(){
   //define default pixel color and pixel density for the game board
   this.BORDER_COLOR = '#555555';
   this.PIXEL_COLOR = '#000000';
-  this.BOARD_WIDTH = 15;
-  this.BOARD_HEIGHT = 15;
+  this.BOARD_WIDTH = 5;
+  this.BOARD_HEIGHT = 5;
 
   this.init = function(){
     this.makePixels();
